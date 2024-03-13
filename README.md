@@ -1,7 +1,7 @@
 # Learning Social Cost Functions for Human-Aware Path Planning
 
 <p align="center">
-  <img src="/images/General.png" width="450"/>
+  <img src="/images/General.png" width="700"/>
 </p>
 
 This repository contains the official Python/TensorFlow implementation of the paper "Learning Social Cost Functions for Human-Aware Path Planning", submitted at IROS2024.
@@ -9,7 +9,7 @@ This repository contains the official Python/TensorFlow implementation of the pa
 In this project, we want to retain all the desirable properties of grid-based navigation systems, such as path optimality and obstacle avoidance, while introducing socially acceptable behaviours. Starting from a social Gridmap representing the position of people and goal, we train an encoder-decoder neural network to generate a social Costmap which enables the robot to a series of social navigation behaviours in correspondence of specific social norms.
 
 <p align="center">
-  <img src="/images/Pipeline.png" width="450"/>
+  <img src="/images/Pipeline.png" width="700"/>
 </p>
 
 The code in this repositoy contains the dataset generator used to train and test the neural network, as well as the trained model presented in the paper. Thanks to the modularity of the code, following the instruction below it is also possible to customize the generator adding new social tasks.
@@ -31,7 +31,7 @@ Using Jupyterlab (reccomended) or any other notebook application, it is then pos
  - utils/evaluate.ipynb contains various methods used to test the code and the models.
 
 <p align="center">
-  <img src="/images/Network_structure.png" width="450"/>
+  <img src="/images/Network_structure.png" width="700"/>
 </p>
 
 ### Adding a new social task
