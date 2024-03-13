@@ -1,3 +1,11 @@
+> Project: Learning Social Cost Functions for Human-Aware Path Planning
+
+> Owner: "Andrea Eirale, Matteo Leonetti, Marcello Chiaberge" 
+
+> Date: "2024:03" 
+
+---
+
 # Learning Social Cost Functions for Human-Aware Path Planning
 
 <p align="center">
