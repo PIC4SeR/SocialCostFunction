@@ -6,6 +6,9 @@
 
 ---
 
+[![arXiv](http://img.shields.io/badge/arXiv-2001.09136-B31B1B.svg)](https://arxiv.org/abs/2407.10547)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # Learning Social Cost Functions for Human-Aware Path Planning
 
 <p align="center">
@@ -48,3 +51,18 @@ Adding a new social task in the dataset generator is pretty simple:
  - create a new task generator following the structure of the provided task generators (such as the queue_generator)
  - in utils/dataset_generator.ipynb, in method get_scenario, add the generator method call, together with the other tasks
  - in main.ipynb, in the first cell run the new generator to together with the other task generators. the fifth cell can be used to test and visualize the correct execution of each generator before starting the training
+
+## Acknowledgments
+This repository is intended for research scopes. If you use it for your research, please cite our paper using the following BibTeX:
+```
+@misc{eirale2024learningsocialcostfunctions,
+      title={Learning Social Cost Functions for Human-Aware Path Planning}, 
+      author={Andrea Eirale and Matteo Leonetti and Marcello Chiaberge},
+      year={2024},
+      eprint={2407.10547},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2407.10547}, 
+}
+```
+We would like to thank the Interdepartmental Center for Service Robotics [PIC4SeR](https://pic4ser.polito.it), Politecnico di Torino, and the [Sensible Robots Research Group](https://www.sensiblerobotsresearch.org), King's College London.
