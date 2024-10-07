@@ -15,7 +15,7 @@
   <img src="/images/General.png" width="1000"/>
 </p>
 
-This repository contains the official Python/TensorFlow implementation of the paper "Learning Social Cost Functions for Human-Aware Path Planning", submitted at IROS2024.
+This repository contains the official Python/TensorFlow implementation of the paper "Learning Social Cost Functions for Human-Aware Path Planning", accepted at IROS2024.
 
 In this project, we want to retain all the desirable properties of grid-based navigation systems, such as path optimality and obstacle avoidance, while introducing socially acceptable behaviours. Starting from a social Gridmap representing the position of people and goal, we train an encoder-decoder neural network to generate a social Costmap which enables the robot to a series of social navigation behaviours in correspondence of specific social norms.
 
