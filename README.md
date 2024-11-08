@@ -23,7 +23,7 @@ In this project, we want to retain all the desirable properties of grid-based na
   <img src="/images/Pipeline.png" width="1000"/>
 </p>
 
-The code in this repositoy contains the dataset generator used to train and test the neural network, as well as the trained model presented in the paper. Thanks to the modularity of the code, following the instruction below it is also possible to customize the generator adding new social tasks.
+The code in this repository contains the dataset generator used to train and test the neural network, as well as the trained model presented in the paper. Thanks to the modularity of the code, following the instruction below it is also possible to customize the generator adding new social tasks.
 
 ## Usage
 First, clone the repository and install the required pip packages (virtual environment recommended!).
